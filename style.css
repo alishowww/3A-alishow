@@ -18,21 +18,25 @@ aside{
 main{
     grid-area: corpo;
     background-color: green;
+    display: flex;
 }
 footer{
     grid-area: perna;
     background-color: pink;
 }
 
-@media only screen and (max-width) {
+@media only screen and (max-width: 800px) {
    body{
     grid-area: "cabeca"
                "corpo"
                "perna";
                grid-template-columns: auto;
-               grid-template-rows: 150px 50px 500px 200px;
+               grid-template-rows: 150px auto 200px;
                
    }
+   aside{
+    display: none;
+}
 }
 
 .mae{
@@ -50,6 +54,10 @@ footer{
     text-align: center;
     border-radius: 15px;
     margin: 20px;
+    justify-content: center;
 }
 
     
+.img_card{
+    width: 350px;
+}
