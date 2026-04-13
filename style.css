@@ -61,3 +61,97 @@ footer{
 .img_card{
     width: 350px;
 }
+.logoimg {
+    width: 150px;
+    border-radius: 100%;
+}
+
+.sebo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+.carrinhoimg {
+    width: 150px;
+    transition: 0.5s;
+}
+
+.carrinhoimg:hover {
+    transform: scale(1.1);
+}
+
+.titulo2{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.cardcarrinho {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.carrinho {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.imgcarrinho {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.titulocarrinho {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.desccarrinho {
+    font-size: 13px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.precocarrinho {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin-left: auto;
+}
+
+.maismenos {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.maismenos button {
+    width: 25px;
+    height: 25px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.maismenos p {
+    min-width: 20px;
+    text-align: center;
+}
+
+.maismenos button:hover{
+    color: #989898;
+}
